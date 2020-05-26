@@ -16,5 +16,5 @@ def isHappy(n, new_arr):
 
 
 if __name__ == '__main__':
-    result = isHappy(20, new_arr=set())
+    result = isHappy(int(input()), new_arr=set())
     print(result)
